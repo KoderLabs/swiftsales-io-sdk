@@ -7,16 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8254DA92530A0BF005A6387 /* swiftsales_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; };
+		D8254DAA2530A0BF005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8254DAF2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */; };
+		D8254DB72530AD7E005A6387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DB62530AD7E005A6387 /* AppDelegate.swift */; };
+		D8254DB92530AD7E005A6387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DB82530AD7E005A6387 /* SceneDelegate.swift */; };
+		D8254DBB2530AD7E005A6387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DBA2530AD7E005A6387 /* ContentView.swift */; };
+		D8254DBD2530AD7F005A6387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8254DBC2530AD7F005A6387 /* Assets.xcassets */; };
+		D8254DC02530AD7F005A6387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */; };
+		D8254DC32530AD7F005A6387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */; };
+		D8254DC82530AD95005A6387 /* swiftsales_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; };
+		D8254DC92530AD95005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */; };
+		D825EA6A253098EA00D8B541 /* SwiftChatFabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */; };
 		D8C01536253088C900165DE9 /* swiftsales_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C0154325308BED00165DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154225308BED00165DE9 /* AppDelegate.swift */; };
+		D8C0154525308BED00165DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154425308BED00165DE9 /* SceneDelegate.swift */; };
+		D8C0154725308BED00165DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154625308BED00165DE9 /* ViewController.swift */; };
+		D8C0154A25308BED00165DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C0154825308BED00165DE9 /* Main.storyboard */; };
+		D8C0154C25308BEF00165DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C0154B25308BEF00165DE9 /* Assets.xcassets */; };
+		D8C0154F25308BEF00165DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C0154D25308BEF00165DE9 /* LaunchScreen.storyboard */; };
+		D8C015562530903100165DE9 /* SwiftSalesChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C015542530903100165DE9 /* SwiftSalesChatViewController.swift */; };
+		D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */; };
+		D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C015582530916100165DE9 /* SwiftSaleSdk.swift */; };
+		D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D8254DAB2530A0BF005A6387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C01528253088C900165DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C01530253088C900165DE9;
+			remoteInfo = "swiftsales-ios-sdk";
+		};
+		D8254DCA2530AD95005A6387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C01528253088C900165DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C01530253088C900165DE9;
+			remoteInfo = "swiftsales-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8254DAD2530A0BF005A6387 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8254DAA2530A0BF005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8254DCC2530AD95005A6387 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8254DC92530AD95005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwiftChatViewController.swift; sourceTree = "<group>"; };
+		D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftsales-ios-sdk-swiftui-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8254DB62530AD7E005A6387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8254DB82530AD7E005A6387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8254DBA2530AD7E005A6387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8254DBC2530AD7F005A6387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8254DC22530AD7F005A6387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8254DC42530AD7F005A6387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwiftChatFab.swift; sourceTree = "<group>"; };
+		D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatFabView.swift; sourceTree = "<group>"; };
 		D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swiftsales_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftsales_ios_sdk.h; sourceTree = "<group>"; };
 		D8C01535253088C900165DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C0154025308BED00165DE9 /* swiftsales-ios-sdk-uikit-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftsales-ios-sdk-uikit-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C0154225308BED00165DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8C0154425308BED00165DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8C0154625308BED00165DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8C0154925308BED00165DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8C0154B25308BEF00165DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8C0154E25308BEF00165DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8C0155025308BEF00165DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C015542530903100165DE9 /* SwiftSalesChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSalesChatViewController.swift; sourceTree = "<group>"; };
+		D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftSalesChatViewController.xib; sourceTree = "<group>"; };
+		D8C015582530916100165DE9 /* SwiftSaleSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSaleSdk.swift; sourceTree = "<group>"; };
+		D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D8254DB12530AD7E005A6387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8254DC82530AD95005A6387 /* swiftsales_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8C0152E253088C900165DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,14 +120,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C0153D25308BED00165DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8254DA92530A0BF005A6387 /* swiftsales_ios_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8254DA325309F1A005A6387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8254DB52530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DB62530AD7E005A6387 /* AppDelegate.swift */,
+				D8254DB82530AD7E005A6387 /* SceneDelegate.swift */,
+				D8254DBA2530AD7E005A6387 /* ContentView.swift */,
+				D8254DBC2530AD7F005A6387 /* Assets.xcassets */,
+				D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */,
+				D8254DC42530AD7F005A6387 /* Info.plist */,
+				D8254DBE2530AD7F005A6387 /* Preview Content */,
+			);
+			path = "swiftsales-ios-sdk-swiftui-example";
+			sourceTree = "<group>";
+		};
+		D8254DBE2530AD7F005A6387 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		D8C01527253088C900165DE9 = {
 			isa = PBXGroup;
 			children = (
 				D8C01533253088C900165DE9 /* swiftsales-ios-sdk */,
+				D8C0154125308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */,
+				D8254DB52530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */,
 				D8C01532253088C900165DE9 /* Products */,
+				D8254DA325309F1A005A6387 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */,
+				D8C0154025308BED00165DE9 /* swiftsales-ios-sdk-uikit-example.app */,
+				D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +186,29 @@
 			children = (
 				D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */,
 				D8C01535253088C900165DE9 /* Info.plist */,
+				D8C015542530903100165DE9 /* SwiftSalesChatViewController.swift */,
+				D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */,
+				D8C015582530916100165DE9 /* SwiftSaleSdk.swift */,
+				D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */,
+				D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */,
+				D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */,
+				D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */,
 			);
 			path = "swiftsales-ios-sdk";
+			sourceTree = "<group>";
+		};
+		D8C0154125308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */ = {
+			isa = PBXGroup;
+			children = (
+				D8C0154225308BED00165DE9 /* AppDelegate.swift */,
+				D8C0154425308BED00165DE9 /* SceneDelegate.swift */,
+				D8C0154625308BED00165DE9 /* ViewController.swift */,
+				D8C0154825308BED00165DE9 /* Main.storyboard */,
+				D8C0154B25308BEF00165DE9 /* Assets.xcassets */,
+				D8C0154D25308BEF00165DE9 /* LaunchScreen.storyboard */,
+				D8C0155025308BEF00165DE9 /* Info.plist */,
+			);
+			path = "swiftsales-ios-sdk-uikit-example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +225,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D8254DB32530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8254DC52530AD7F005A6387 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-swiftui-example" */;
+			buildPhases = (
+				D8254DB02530AD7E005A6387 /* Sources */,
+				D8254DB12530AD7E005A6387 /* Frameworks */,
+				D8254DB22530AD7E005A6387 /* Resources */,
+				D8254DCC2530AD95005A6387 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8254DCB2530AD95005A6387 /* PBXTargetDependency */,
+			);
+			name = "swiftsales-ios-sdk-swiftui-example";
+			productName = "swiftsales-ios-sdk-swiftui-example";
+			productReference = D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D8C01530253088C900165DE9 /* swiftsales-ios-sdk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8C01539253088C900165DE9 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk" */;
@@ -84,16 +262,43 @@
 			productReference = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D8C0153F25308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C0155125308BEF00165DE9 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-uikit-example" */;
+			buildPhases = (
+				D8C0153C25308BED00165DE9 /* Sources */,
+				D8C0153D25308BED00165DE9 /* Frameworks */,
+				D8C0153E25308BED00165DE9 /* Resources */,
+				D8254DAD2530A0BF005A6387 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8254DAC2530A0BF005A6387 /* PBXTargetDependency */,
+			);
+			name = "swiftsales-ios-sdk-uikit-example";
+			productName = "swiftsales-ios-sdk-uikit-example";
+			productReference = D8C0154025308BED00165DE9 /* swiftsales-ios-sdk-uikit-example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D8C01528253088C900165DE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Swiftsales;
 				TargetAttributes = {
+					D8254DB32530AD7E005A6387 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					D8C01530253088C900165DE9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					D8C0153F25308BED00165DE9 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -112,31 +317,160 @@
 			projectRoot = "";
 			targets = (
 				D8C01530253088C900165DE9 /* swiftsales-ios-sdk */,
+				D8C0153F25308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */,
+				D8254DB32530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D8254DB22530AD7E005A6387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8254DC32530AD7F005A6387 /* LaunchScreen.storyboard in Resources */,
+				D8254DC02530AD7F005A6387 /* Preview Assets.xcassets in Resources */,
+				D8254DBD2530AD7F005A6387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8C0152F253088C900165DE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C0153E25308BED00165DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C0154F25308BEF00165DE9 /* LaunchScreen.storyboard in Resources */,
+				D8C0154C25308BEF00165DE9 /* Assets.xcassets in Resources */,
+				D8C0154A25308BED00165DE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D8254DB02530AD7E005A6387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8254DB72530AD7E005A6387 /* AppDelegate.swift in Sources */,
+				D8254DB92530AD7E005A6387 /* SceneDelegate.swift in Sources */,
+				D8254DBB2530AD7E005A6387 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D8C0152D253088C900165DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C015562530903100165DE9 /* SwiftSalesChatViewController.swift in Sources */,
+				D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */,
+				D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */,
+				D8254DAF2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift in Sources */,
+				D825EA6A253098EA00D8B541 /* SwiftChatFabView.swift in Sources */,
+				D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C0153C25308BED00165DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C0154725308BED00165DE9 /* ViewController.swift in Sources */,
+				D8C0154325308BED00165DE9 /* AppDelegate.swift in Sources */,
+				D8C0154525308BED00165DE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D8254DAC2530A0BF005A6387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C01530253088C900165DE9 /* swiftsales-ios-sdk */;
+			targetProxy = D8254DAB2530A0BF005A6387 /* PBXContainerItemProxy */;
+		};
+		D8254DCB2530AD95005A6387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C01530253088C900165DE9 /* swiftsales-ios-sdk */;
+			targetProxy = D8254DCA2530AD95005A6387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8254DC22530AD7F005A6387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8C0154825308BED00165DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C0154925308BED00165DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8C0154D25308BEF00165DE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C0154E25308BEF00165DE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		D8254DC62530AD7F005A6387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftsales-ios-sdk-swiftui-example/Preview Content\"";
+				DEVELOPMENT_TEAM = KAKDNBDBY6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftsales-ios-sdk-swiftui-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-swiftui-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8254DC72530AD7F005A6387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftsales-ios-sdk-swiftui-example/Preview Content\"";
+				DEVELOPMENT_TEAM = KAKDNBDBY6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftsales-ios-sdk-swiftui-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-swiftui-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D8C01537253088C900165DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,6 +594,7 @@
 		D8C0153A253088C900165DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +619,7 @@
 		D8C0153B253088C900165DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -303,9 +640,54 @@
 			};
 			name = Release;
 		};
+		D8C0155225308BEF00165DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAKDNBDBY6;
+				INFOPLIST_FILE = "swiftsales-ios-sdk-uikit-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-uikit-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8C0155325308BEF00165DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KAKDNBDBY6;
+				INFOPLIST_FILE = "swiftsales-ios-sdk-uikit-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-uikit-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D8254DC52530AD7F005A6387 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-swiftui-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8254DC62530AD7F005A6387 /* Debug */,
+				D8254DC72530AD7F005A6387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D8C0152B253088C900165DE9 /* Build configuration list for PBXProject "swiftsales-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -320,6 +702,15 @@
 			buildConfigurations = (
 				D8C0153A253088C900165DE9 /* Debug */,
 				D8C0153B253088C900165DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C0155125308BEF00165DE9 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-uikit-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C0155225308BEF00165DE9 /* Debug */,
+				D8C0155325308BEF00165DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
