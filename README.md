@@ -14,7 +14,7 @@ pod 'swiftsales_ios_sdk'
 ```
 
 ### App Delegate
-Initialize swift chat sdk by providing userId and domainName to SwiftSaleSdk.initialize method (***Note: you can get your userId and domainName from swiftSale admin panel) or [Create Account](https://app.swiftchat.io):
+Initialize swift chat sdk by providing userId and domainName to SwiftSaleSdk.initialize method (**Note: you can get your userId and domainName from swiftSale admin panel) or [Create Account](https://app.swiftchat.io)**:
 
 ```swift
 import UIKit
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
 }
 ```
 
-***SwiftSale SDK also provide UIView widget for UI-Kit name "SwiftChatFabView", you can add on your StoryBoard by selecting View from UI-Kit library and in identity inspector select SwiftChatFabView in custom class dropdown and also select swiftsales_ios_sdk from module dropdown.
+**SwiftSale SDK also provide UIView widget for UI-Kit name "SwiftChatFabView", you can add on your StoryBoard by selecting View from UI-Kit library and in identity inspector select SwiftChatFabView in custom class dropdown and also select swiftsales_ios_sdk from module dropdown.**
 
 ### For Swift UI
 
