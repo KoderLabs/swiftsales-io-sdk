@@ -31,6 +31,7 @@
 		D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C015582530916100165DE9 /* SwiftSaleSdk.swift */; };
 		D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */; };
 		D8C26BAC2534482A0063B60B /* SwiftChatFabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */; };
+		D8C26BAE25347E470063B60B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8C26BAD25347E470063B60B /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwiftSalesChatViewController.xib; sourceTree = "<group>"; };
 		D8C015582530916100165DE9 /* SwiftSaleSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSaleSdk.swift; sourceTree = "<group>"; };
 		D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatProvider.swift; sourceTree = "<group>"; };
+		D8C26BAD25347E470063B60B /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D8C26BAF25347EFA0063B60B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 		D8C01527253088C900165DE9 = {
 			isa = PBXGroup;
 			children = (
+				D8C26BAF25347EFA0063B60B /* README.md */,
+				D8C26BAD25347E470063B60B /* LICENSE.txt */,
 				D8C01533253088C900165DE9 /* swiftsales-ios-sdk */,
 				D8C0154125308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */,
 				D8254DB52530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */,
@@ -338,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C26BAE25347E470063B60B /* LICENSE.txt in Resources */,
 				D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
