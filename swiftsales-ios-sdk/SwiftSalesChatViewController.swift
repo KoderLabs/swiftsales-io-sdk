@@ -9,39 +9,34 @@
 import UIKit
 import WebKit
 
-public class SwiftSalesChatViewController: UIViewController, WKScriptMessageHandler {
+public class SwiftSalesChatViewController: UIViewController {
 
     var webView: WKWebView?
+    let contentController = WKUserContentController()
     
     override public func viewDidLoad() {
         super.viewDidLoad()
 
-        let contentController = WKUserContentController()
-        contentController.add(self, name: "callbackHandler")
-        
-        webView = SwiftChatProvider.getWebView(frame: CGRect(x: 0, y:0, width: self.view.frame.size.width, height: self.view.frame.size.height), contentController: contentController)
+        webView = SwiftChatProvider.getWebView(frame: CGRect(x: 0, y:0, width: self.view.frame.size.width, height: self.view.frame.size.height), viewController: self)
+
         self.view.addSubview(webView!)
     }
     
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        
         // Hide the Navigation Bar
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
     override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
+        
+        // Remove Webview
+        self.view.willRemoveSubview(webView!)
+        self.view.removeFromSuperview()
+        
         // Show the Navigation Bar
         self.navigationController?.setNavigationBarHidden(false, animated: false)
-    }
-    
-    public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.name == "callbackHandler"){
-            if(navigationController == nil) {
-                dismiss(animated: true, completion: nil)
-            } else {
-                navigationController?.popViewController(animated: true)
-            }
-        }
     }
 }

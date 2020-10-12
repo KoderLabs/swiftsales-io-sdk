@@ -9,25 +9,52 @@
 import UIKit
 import WebKit
 
-class SwiftChatProvider {
+class SwiftChatProvider : NSObject, WKScriptMessageHandler {
     
-    private static var webView: WKWebView? = nil
-    private static let config = WKWebViewConfiguration()
+    private var webView: WKWebView? = nil
     
-    private init() {
+    private static var viewController: UIViewController? = nil
+    private static var INSTANCE: SwiftChatProvider? = nil
+    
+    private override init() {
         
     }
     
-    static func getWebView(frame: CGRect, contentController: WKUserContentController) -> WKWebView {
-        config.userContentController = contentController
+    private init(frame: CGRect) {
+        super.init()
         
-        if(webView == nil) {
-            webView = WKWebView(frame: frame, configuration: config)
+        let contentController = WKUserContentController()
+        contentController.add(self, name: "callbackHandler")
+        
+        let config = WKWebViewConfiguration()
+        config.userContentController = contentController
             
-            webView?.load(NSURLRequest(url: NSURL(string: "https://dev-api.swiftchat.io/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
+        webView = WKWebView(frame: frame, configuration: config)
+            
+        webView?.load(NSURLRequest(url: NSURL(string: "https://dev-api.swiftchat.io/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
+        
+    }
+    
+    // delegates
+    public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        if (message.name == "callbackHandler"){
+            if(SwiftChatProvider.viewController?.navigationController == nil) {
+                SwiftChatProvider.viewController?.dismiss(animated: true, completion: nil)
+            } else {
+                SwiftChatProvider.viewController?.navigationController?.popViewController(animated: true)
+            }
+            SwiftChatProvider.viewController = nil
+        }
+    }
+    
+    // static functions
+    public static func getWebView(frame: CGRect, viewController: UIViewController) -> WKWebView {
+        SwiftChatProvider.viewController = viewController
+        
+        if(SwiftChatProvider.INSTANCE == nil) {
+            SwiftChatProvider.INSTANCE = SwiftChatProvider(frame: frame)
         }
         
-        return webView!
+        return SwiftChatProvider.INSTANCE!.webView!
     }
-    
 }

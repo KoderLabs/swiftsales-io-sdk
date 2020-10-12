@@ -22,9 +22,8 @@
                                     <action selector="OpenSwiftChatPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kRZ-jN-CaL"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TK4-Gj-67j" customClass="SwiftFabView" customModule="swiftsales_ios_sdk">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TK4-Gj-67j" customClass="SwiftChatFabView" customModule="swiftsales_ios_sdk">
                                 <rect key="frame" x="354" y="802" width="50" height="50"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="iKY-g1-DCE"/>
                                     <constraint firstAttribute="width" constant="50" id="rEI-f4-DB5"/>

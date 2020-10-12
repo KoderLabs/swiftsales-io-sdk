@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             SwiftUiSwiftChatFab()
-            Button("Select Image") {
+            Button("Open Swift Chat") {
                self.showingChat = true
             }
             .sheet(isPresented: $showingChat) {

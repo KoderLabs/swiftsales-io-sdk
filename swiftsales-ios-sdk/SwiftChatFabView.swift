@@ -10,20 +10,24 @@ import UIKit
 
 public class SwiftChatFabView: UIView {
 
-    fileprivate var plusLayer: CAShapeLayer = CAShapeLayer()
-    
     fileprivate let button = UIButton(type: .custom)
     
-    fileprivate let size: CGFloat = 50.0
+    fileprivate var size: CGFloat = 50.0
     
-    override init(frame: CGRect) {
-      super.init(frame: frame)
-      setupView()
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        print("frame \(frame)")
+        setupView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
-      super.init(coder: aDecoder)
-      setupView()
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        size = frame.size.width < frame.size.height ? frame.size.width : frame.size.height
+        setupView()
+    }
+    
+    override public func awakeFromNib() {
+        setupView()
     }
     
     private func setupView() {

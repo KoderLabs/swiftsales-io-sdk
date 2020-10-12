@@ -19,7 +19,6 @@
 		D8254DC82530AD95005A6387 /* swiftsales_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; };
 		D8254DC92530AD95005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */; };
-		D825EA6A253098EA00D8B541 /* SwiftChatFabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */; };
 		D8C01536253088C900165DE9 /* swiftsales_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8C0154325308BED00165DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154225308BED00165DE9 /* AppDelegate.swift */; };
 		D8C0154525308BED00165DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154425308BED00165DE9 /* SceneDelegate.swift */; };
@@ -31,6 +30,7 @@
 		D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */; };
 		D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C015582530916100165DE9 /* SwiftSaleSdk.swift */; };
 		D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */; };
+		D8C26BAC2534482A0063B60B /* SwiftChatFabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,8 +190,8 @@
 				D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */,
 				D8C015582530916100165DE9 /* SwiftSaleSdk.swift */,
 				D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */,
-				D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */,
 				D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */,
+				D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */,
 				D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */,
 			);
 			path = "swiftsales-ios-sdk";
@@ -369,11 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C26BAC2534482A0063B60B /* SwiftChatFabView.swift in Sources */,
 				D8C015562530903100165DE9 /* SwiftSalesChatViewController.swift in Sources */,
 				D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */,
 				D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */,
 				D8254DAF2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift in Sources */,
-				D825EA6A253098EA00D8B541 /* SwiftChatFabView.swift in Sources */,
 				D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
