@@ -14,7 +14,7 @@ pod 'swiftsales_ios_sdk'
 ```
 
 ### App Delegate
-Initialize swift chat sdk by providing userId and domainName to SwiftSaleSdk.initialize method (***Note: you can get your userId and domainName from swiftSale admin panel)
+Initialize swift chat sdk by providing userId and domainName to SwiftSaleSdk.initialize method (***Note: you can get your userId and domainName from swiftSale admin panel) or [Create Account](https://app.swiftchat.io):
 
 ```swift
 import UIKit
