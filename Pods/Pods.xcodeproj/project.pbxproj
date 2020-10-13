@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DE5B779E2B2C200C38D988C2F30458 /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C23BBD68382427FC297B0317E0E5EE /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m */; };
+		7E836F02C60B91CC905F40AE5B53142C /* Pods-swiftsales-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F46A82BD3FA9E11043797169C4726 /* Pods-swiftsales-ios-sdk-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186F46A82BD3FA9E11043797169C4726 /* Pods-swiftsales-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftsales-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		4672B4C6EBCC4C3A36B7D7144EC6797A /* libPods-swiftsales-ios-sdk-uikit-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftsales-ios-sdk-uikit-example.a"; path = "libPods-swiftsales-ios-sdk-uikit-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CF97C9A2E03D1B27E610E046801836 /* Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52A5B7A04BBE7B9A1A904CEBB4C14AAC /* libPods-swiftsales-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-swiftsales-ios-sdk.a"; path = "libPods-swiftsales-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF0EFE468FF43103880802EF54781BC /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig"; sourceTree = "<group>"; };
+		8DCC15CE7AF3354C4D618B8CF87D6E88 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig"; sourceTree = "<group>"; };
+		91C23BBD68382427FC297B0317E0E5EE /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftsales-ios-sdk-uikit-example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C661A261418F1DBFB4239CF57C4D3665 /* Pods-swiftsales-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		CE82CFE51EFFBE09A69F6B4557FA798D /* Pods-swiftsales-ios-sdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftsales-ios-sdk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC442D59B889FA3FF65D0268EC7C8599 /* Pods-swiftsales-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftsales-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		EFCE3DA210B8842BA892FE54170D684C /* Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6279293726616E67C28C5E17D467B6E /* Pods-swiftsales-ios-sdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftsales-ios-sdk-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C30EDEEB10C68311FBD2782F6657329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EBD5B02CFA25AB744123C9CB149E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209F0743BC144489A68E2592C1515515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A5B7A04BBE7B9A1A904CEBB4C14AAC /* libPods-swiftsales-ios-sdk.a */,
+				4672B4C6EBCC4C3A36B7D7144EC6797A /* libPods-swiftsales-ios-sdk-uikit-example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBABBFE3BF639E04B73E413F1A4AA15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDAEBE081EE20E7CC82B83983047153 /* Pods-swiftsales-ios-sdk */,
+				901C60C7872A8089AF9B18E59935152E /* Pods-swiftsales-ios-sdk-uikit-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		901C60C7872A8089AF9B18E59935152E /* Pods-swiftsales-ios-sdk-uikit-example */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE3DA210B8842BA892FE54170D684C /* Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.markdown */,
+				49CF97C9A2E03D1B27E610E046801836 /* Pods-swiftsales-ios-sdk-uikit-example-acknowledgements.plist */,
+				91C23BBD68382427FC297B0317E0E5EE /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m */,
+				8DCC15CE7AF3354C4D618B8CF87D6E88 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */,
+				6EF0EFE468FF43103880802EF54781BC /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */,
+			);
+			name = "Pods-swiftsales-ios-sdk-uikit-example";
+			path = "Target Support Files/Pods-swiftsales-ios-sdk-uikit-example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				209F0743BC144489A68E2592C1515515 /* Products */,
+				2FBABBFE3BF639E04B73E413F1A4AA15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDAEBE081EE20E7CC82B83983047153 /* Pods-swiftsales-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CE82CFE51EFFBE09A69F6B4557FA798D /* Pods-swiftsales-ios-sdk-acknowledgements.markdown */,
+				F6279293726616E67C28C5E17D467B6E /* Pods-swiftsales-ios-sdk-acknowledgements.plist */,
+				186F46A82BD3FA9E11043797169C4726 /* Pods-swiftsales-ios-sdk-dummy.m */,
+				C661A261418F1DBFB4239CF57C4D3665 /* Pods-swiftsales-ios-sdk.debug.xcconfig */,
+				EC442D59B889FA3FF65D0268EC7C8599 /* Pods-swiftsales-ios-sdk.release.xcconfig */,
+			);
+			name = "Pods-swiftsales-ios-sdk";
+			path = "Target Support Files/Pods-swiftsales-ios-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80121912C3B1433126CD189191AFB073 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB293DF17E7FCC9E7EBF8DBF9CFC437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EB66939FE94FDD308155F244B3FEA93 /* Pods-swiftsales-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49744878EE994327B4732FC1FF0BA738 /* Build configuration list for PBXNativeTarget "Pods-swiftsales-ios-sdk" */;
+			buildPhases = (
+				80121912C3B1433126CD189191AFB073 /* Headers */,
+				B6FEFA87A874441C1A9CC5BC628A090F /* Sources */,
+				C4EBD5B02CFA25AB744123C9CB149E8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swiftsales-ios-sdk";
+			productName = "Pods-swiftsales-ios-sdk";
+			productReference = 52A5B7A04BBE7B9A1A904CEBB4C14AAC /* libPods-swiftsales-ios-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F91BB627CC6F278882CA8EEE8DC9BCB4 /* Pods-swiftsales-ios-sdk-uikit-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362A764F8292CC54C70BCF0C68CA0B11 /* Build configuration list for PBXNativeTarget "Pods-swiftsales-ios-sdk-uikit-example" */;
+			buildPhases = (
+				8CB293DF17E7FCC9E7EBF8DBF9CFC437 /* Headers */,
+				C01153702E6C37D534B0914D7E209C7E /* Sources */,
+				2C30EDEEB10C68311FBD2782F6657329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-swiftsales-ios-sdk-uikit-example";
+			productName = "Pods-swiftsales-ios-sdk-uikit-example";
+			productReference = 4672B4C6EBCC4C3A36B7D7144EC6797A /* libPods-swiftsales-ios-sdk-uikit-example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 209F0743BC144489A68E2592C1515515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB66939FE94FDD308155F244B3FEA93 /* Pods-swiftsales-ios-sdk */,
+				F91BB627CC6F278882CA8EEE8DC9BCB4 /* Pods-swiftsales-ios-sdk-uikit-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FEFA87A874441C1A9CC5BC628A090F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E836F02C60B91CC905F40AE5B53142C /* Pods-swiftsales-ios-sdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01153702E6C37D534B0914D7E209C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DE5B779E2B2C200C38D988C2F30458 /* Pods-swiftsales-ios-sdk-uikit-example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		164D6664ED6FD96AB1C82DA51A2A7F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF0EFE468FF43103880802EF54781BC /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92E4DCCDB3FCF125EBE5EB67B799AE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C661A261418F1DBFB4239CF57C4D3665 /* Pods-swiftsales-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E0546E9EC344BF745D1C54AD0E1BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCC15CE7AF3354C4D618B8CF87D6E88 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4C21620F7B6C92A3B4E7581725D8C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC442D59B889FA3FF65D0268EC7C8599 /* Pods-swiftsales-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362A764F8292CC54C70BCF0C68CA0B11 /* Build configuration list for PBXNativeTarget "Pods-swiftsales-ios-sdk-uikit-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E0546E9EC344BF745D1C54AD0E1BBF /* Debug */,
+				164D6664ED6FD96AB1C82DA51A2A7F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49744878EE994327B4732FC1FF0BA738 /* Build configuration list for PBXNativeTarget "Pods-swiftsales-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E4DCCDB3FCF125EBE5EB67B799AE8D /* Debug */,
+				F4C21620F7B6C92A3B4E7581725D8C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

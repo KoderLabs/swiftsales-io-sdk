@@ -9,16 +9,7 @@
 /* Begin PBXBuildFile section */
 		D8254DA92530A0BF005A6387 /* swiftsales_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; };
 		D8254DAA2530A0BF005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D8254DAF2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */; };
-		D8254DB72530AD7E005A6387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DB62530AD7E005A6387 /* AppDelegate.swift */; };
-		D8254DB92530AD7E005A6387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DB82530AD7E005A6387 /* SceneDelegate.swift */; };
-		D8254DBB2530AD7E005A6387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DBA2530AD7E005A6387 /* ContentView.swift */; };
-		D8254DBD2530AD7F005A6387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8254DBC2530AD7F005A6387 /* Assets.xcassets */; };
-		D8254DC02530AD7F005A6387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */; };
-		D8254DC32530AD7F005A6387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */; };
-		D8254DC82530AD95005A6387 /* swiftsales_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; };
-		D8254DC92530AD95005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */; };
+		D86079052535CFAE00595C11 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86079042535CFAE00595C11 /* Media.xcassets */; };
 		D8C01536253088C900165DE9 /* swiftsales_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8C0154325308BED00165DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154225308BED00165DE9 /* AppDelegate.swift */; };
 		D8C0154525308BED00165DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0154425308BED00165DE9 /* SceneDelegate.swift */; };
@@ -30,19 +21,12 @@
 		D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */; };
 		D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C015582530916100165DE9 /* SwiftSaleSdk.swift */; };
 		D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */; };
-		D8C26BAC2534482A0063B60B /* SwiftChatFabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */; };
+		D8C26BAC2534482A0063B60B /* SwiftChatFab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825EA69253098EA00D8B541 /* SwiftChatFab.swift */; };
 		D8C26BAE25347E470063B60B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8C26BAD25347E470063B60B /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D8254DAB2530A0BF005A6387 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8C01528253088C900165DE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8C01530253088C900165DE9;
-			remoteInfo = "swiftsales-ios-sdk";
-		};
-		D8254DCA2530AD95005A6387 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8C01528253088C900165DE9 /* Project object */;
 			proxyType = 1;
@@ -63,31 +47,14 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8254DCC2530AD95005A6387 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D8254DC92530AD95005A6387 /* swiftsales_ios_sdk.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwiftChatViewController.swift; sourceTree = "<group>"; };
-		D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftsales-ios-sdk-swiftui-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8254DB62530AD7E005A6387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8254DB82530AD7E005A6387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8254DBA2530AD7E005A6387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D8254DBC2530AD7F005A6387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D8254DC22530AD7F005A6387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D8254DC42530AD7F005A6387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSwiftChatFab.swift; sourceTree = "<group>"; };
-		D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatFabView.swift; sourceTree = "<group>"; };
+		372DD521936AE6BBEA8E9B4E /* libPods-swiftsales-ios-sdk-uikit-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftsales-ios-sdk-uikit-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45265CF19071022184B1C166 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig"; path = "Target Support Files/Pods-swiftsales-ios-sdk-uikit-example/Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig"; sourceTree = "<group>"; };
+		4EB96B54ED31B9931C99D204 /* Pods-swiftsales-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftsales-ios-sdk.release.xcconfig"; path = "Target Support Files/Pods-swiftsales-ios-sdk/Pods-swiftsales-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		D825EA69253098EA00D8B541 /* SwiftChatFab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatFab.swift; sourceTree = "<group>"; };
+		D86079042535CFAE00595C11 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swiftsales_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C01534253088C900165DE9 /* swiftsales_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftsales_ios_sdk.h; sourceTree = "<group>"; };
 		D8C01535253088C900165DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,17 +72,12 @@
 		D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChatProvider.swift; sourceTree = "<group>"; };
 		D8C26BAD25347E470063B60B /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D8C26BAF25347EFA0063B60B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1C521B258C14B500DEF1FF3 /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig"; path = "Target Support Files/Pods-swiftsales-ios-sdk-uikit-example/Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig"; sourceTree = "<group>"; };
+		E36F7D8ECEA047D95D10DF4C /* libPods-swiftsales-ios-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftsales-ios-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02A11D5064B5912C89FD0E /* Pods-swiftsales-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftsales-ios-sdk.debug.xcconfig"; path = "Target Support Files/Pods-swiftsales-ios-sdk/Pods-swiftsales-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D8254DB12530AD7E005A6387 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8254DC82530AD95005A6387 /* swiftsales_ios_sdk.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8C0152E253088C900165DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,33 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D8254DA325309F1A005A6387 /* Frameworks */ = {
+		228A8FEDDF3A5E2AA3503264 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E36F7D8ECEA047D95D10DF4C /* libPods-swiftsales-ios-sdk.a */,
+				372DD521936AE6BBEA8E9B4E /* libPods-swiftsales-ios-sdk-uikit-example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8254DB52530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */ = {
+		3B37CFFEBD63B8A85E049E3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8254DB62530AD7E005A6387 /* AppDelegate.swift */,
-				D8254DB82530AD7E005A6387 /* SceneDelegate.swift */,
-				D8254DBA2530AD7E005A6387 /* ContentView.swift */,
-				D8254DBC2530AD7F005A6387 /* Assets.xcassets */,
-				D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */,
-				D8254DC42530AD7F005A6387 /* Info.plist */,
-				D8254DBE2530AD7F005A6387 /* Preview Content */,
+				FA02A11D5064B5912C89FD0E /* Pods-swiftsales-ios-sdk.debug.xcconfig */,
+				4EB96B54ED31B9931C99D204 /* Pods-swiftsales-ios-sdk.release.xcconfig */,
+				45265CF19071022184B1C166 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */,
+				E1C521B258C14B500DEF1FF3 /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */,
 			);
-			path = "swiftsales-ios-sdk-swiftui-example";
-			sourceTree = "<group>";
-		};
-		D8254DBE2530AD7F005A6387 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D8254DBF2530AD7F005A6387 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D8C01527253088C900165DE9 = {
@@ -170,9 +123,9 @@
 				D8C26BAD25347E470063B60B /* LICENSE.txt */,
 				D8C01533253088C900165DE9 /* swiftsales-ios-sdk */,
 				D8C0154125308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */,
-				D8254DB52530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */,
 				D8C01532253088C900165DE9 /* Products */,
-				D8254DA325309F1A005A6387 /* Frameworks */,
+				3B37CFFEBD63B8A85E049E3E /* Pods */,
+				228A8FEDDF3A5E2AA3503264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,7 +134,6 @@
 			children = (
 				D8C01531253088C900165DE9 /* swiftsales_ios_sdk.framework */,
 				D8C0154025308BED00165DE9 /* swiftsales-ios-sdk-uikit-example.app */,
-				D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,9 +147,8 @@
 				D8C015552530903100165DE9 /* SwiftSalesChatViewController.xib */,
 				D8C015582530916100165DE9 /* SwiftSaleSdk.swift */,
 				D8C0155A2530936A00165DE9 /* SwiftChatProvider.swift */,
-				D8254DAE2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift */,
-				D825EA69253098EA00D8B541 /* SwiftChatFabView.swift */,
-				D8254DCD2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift */,
+				D825EA69253098EA00D8B541 /* SwiftChatFab.swift */,
+				D86079042535CFAE00595C11 /* Media.xcassets */,
 			);
 			path = "swiftsales-ios-sdk";
 			sourceTree = "<group>";
@@ -230,29 +181,11 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D8254DB32530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8254DC52530AD7F005A6387 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-swiftui-example" */;
-			buildPhases = (
-				D8254DB02530AD7E005A6387 /* Sources */,
-				D8254DB12530AD7E005A6387 /* Frameworks */,
-				D8254DB22530AD7E005A6387 /* Resources */,
-				D8254DCC2530AD95005A6387 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8254DCB2530AD95005A6387 /* PBXTargetDependency */,
-			);
-			name = "swiftsales-ios-sdk-swiftui-example";
-			productName = "swiftsales-ios-sdk-swiftui-example";
-			productReference = D8254DB42530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D8C01530253088C900165DE9 /* swiftsales-ios-sdk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8C01539253088C900165DE9 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk" */;
 			buildPhases = (
+				7AA294AA7EEB7372BD8761BD /* [CP] Check Pods Manifest.lock */,
 				D8C0152C253088C900165DE9 /* Headers */,
 				D8C0152D253088C900165DE9 /* Sources */,
 				D8C0152E253088C900165DE9 /* Frameworks */,
@@ -271,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8C0155125308BEF00165DE9 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-uikit-example" */;
 			buildPhases = (
+				3B44690E288D3B14927F42FF /* [CP] Check Pods Manifest.lock */,
 				D8C0153C25308BED00165DE9 /* Sources */,
 				D8C0153D25308BED00165DE9 /* Frameworks */,
 				D8C0153E25308BED00165DE9 /* Resources */,
@@ -296,9 +230,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Swiftsales;
 				TargetAttributes = {
-					D8254DB32530AD7E005A6387 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
 					D8C01530253088C900165DE9 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
@@ -323,27 +254,17 @@
 			targets = (
 				D8C01530253088C900165DE9 /* swiftsales-ios-sdk */,
 				D8C0153F25308BED00165DE9 /* swiftsales-ios-sdk-uikit-example */,
-				D8254DB32530AD7E005A6387 /* swiftsales-ios-sdk-swiftui-example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D8254DB22530AD7E005A6387 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8254DC32530AD7F005A6387 /* LaunchScreen.storyboard in Resources */,
-				D8254DC02530AD7F005A6387 /* Preview Assets.xcassets in Resources */,
-				D8254DBD2530AD7F005A6387 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8C0152F253088C900165DE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8C26BAE25347E470063B60B /* LICENSE.txt in Resources */,
+				D86079052535CFAE00595C11 /* Media.xcassets in Resources */,
 				D8C015572530903100165DE9 /* SwiftSalesChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,26 +281,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		D8254DB02530AD7E005A6387 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		3B44690E288D3B14927F42FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8254DB72530AD7E005A6387 /* AppDelegate.swift in Sources */,
-				D8254DB92530AD7E005A6387 /* SceneDelegate.swift in Sources */,
-				D8254DBB2530AD7E005A6387 /* ContentView.swift in Sources */,
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftsales-ios-sdk-uikit-example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
+		7AA294AA7EEB7372BD8761BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftsales-ios-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		D8C0152D253088C900165DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C26BAC2534482A0063B60B /* SwiftChatFabView.swift in Sources */,
+				D8C26BAC2534482A0063B60B /* SwiftChatFab.swift in Sources */,
 				D8C015562530903100165DE9 /* SwiftSalesChatViewController.swift in Sources */,
-				D8254DCE2530B6BB005A6387 /* SwiftUiSwiftChatFab.swift in Sources */,
 				D8C015592530916100165DE9 /* SwiftSaleSdk.swift in Sources */,
-				D8254DAF2530AB25005A6387 /* SwiftUiSwiftChatViewController.swift in Sources */,
 				D8C0155B2530936A00165DE9 /* SwiftChatProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,22 +358,9 @@
 			target = D8C01530253088C900165DE9 /* swiftsales-ios-sdk */;
 			targetProxy = D8254DAB2530A0BF005A6387 /* PBXContainerItemProxy */;
 		};
-		D8254DCB2530AD95005A6387 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8C01530253088C900165DE9 /* swiftsales-ios-sdk */;
-			targetProxy = D8254DCA2530AD95005A6387 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8254DC12530AD7F005A6387 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8254DC22530AD7F005A6387 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		D8C0154825308BED00165DE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,46 +380,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D8254DC62530AD7F005A6387 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftsales-ios-sdk-swiftui-example/Preview Content\"";
-				DEVELOPMENT_TEAM = KAKDNBDBY6;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftsales-ios-sdk-swiftui-example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-swiftui-example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D8254DC72530AD7F005A6387 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"swiftsales-ios-sdk-swiftui-example/Preview Content\"";
-				DEVELOPMENT_TEAM = KAKDNBDBY6;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftsales-ios-sdk-swiftui-example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Swiftsales.swiftsales-ios-sdk-swiftui-example";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		D8C01537253088C900165DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -585,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -599,10 +502,13 @@
 		};
 		D8C0153A253088C900165DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA02A11D5064B5912C89FD0E /* Pods-swiftsales-ios-sdk.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -624,10 +530,13 @@
 		};
 		D8C0153B253088C900165DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB96B54ED31B9931C99D204 /* Pods-swiftsales-ios-sdk.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -648,6 +557,7 @@
 		};
 		D8C0155225308BEF00165DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45265CF19071022184B1C166 /* Pods-swiftsales-ios-sdk-uikit-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +576,7 @@
 		};
 		D8C0155325308BEF00165DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C521B258C14B500DEF1FF3 /* Pods-swiftsales-ios-sdk-uikit-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -685,15 +596,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8254DC52530AD7F005A6387 /* Build configuration list for PBXNativeTarget "swiftsales-ios-sdk-swiftui-example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8254DC62530AD7F005A6387 /* Debug */,
-				D8254DC72530AD7F005A6387 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D8C0152B253088C900165DE9 /* Build configuration list for PBXProject "swiftsales-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

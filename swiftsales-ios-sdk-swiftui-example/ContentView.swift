@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import swiftsales_ios_sdk
 
 struct ContentView: View {
     @State private var showingChat = false

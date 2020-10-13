@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SwiftChatFabView: UIView {
+public class SwiftChatFab: UIView {
 
     fileprivate let button = UIButton(type: .custom)
     
@@ -36,9 +36,13 @@ public class SwiftChatFabView: UIView {
         button.clipsToBounds = true
         button.backgroundColor = UIColor.orange
         button.addTarget(self, action: #selector(chatButtonPressed), for: .touchUpInside)
-        let image = UIImage(systemName: "bubble.right.fill")
+       
+        let bundle = Bundle(for: type(of: self))
+        let image = UIImage(named: "bubble", in: bundle, compatibleWith: nil)
+        
+        button.setImage(image?.withRenderingMode(.alwaysTemplate), for: .normal)
+        button.imageEdgeInsets = UIEdgeInsets(top: size * 0.25,left: size * 0.25, bottom: size * 0.25, right: size * 0.25)
         button.tintColor = UIColor.white
-        button.setImage(image, for: .normal)
         addSubview(button)
     }
     

@@ -1,9 +1,7 @@
 # Swift-Chat iOS SDK
 
-## Get Started
-
 ## Requirements
-Swift-Chat iOS SDK requires iOS 13.3 or above, and is compatibile with Swift 5.
+Swift-Chat iOS SDK requires iOS 11.0 or above, and is compatibile with Swift 5.
 
 ## Installation
 ### CocoaPods
@@ -58,47 +56,6 @@ class ViewController: UIViewController {
 ```
 
 **SwiftSale SDK also provide UIView widget for UI-Kit name "SwiftChatFabView", you can add on your StoryBoard by selecting View from UI-Kit library and in identity inspector select SwiftChatFabView in custom class dropdown and also select swiftsales_ios_sdk from module dropdown.**
-
-### For Swift UI
-
-You can manually open swiftsales chat from your content view by calling
-
-``` swift
-import SwiftUI
-import swiftsales_ios_sdk
-
-struct ContentView: View {
-    @State private var showingChat = false
-    
-    var body: some View {
-        VStack {
-            Button("Open Swift Chat") {
-               self.showingChat = true
-            }
-            .sheet(isPresented: $showingChat) {
-                SwiftUiSwiftChatViewController()
-            }
-            // your layout
-        }
-    }
-}
-```
-
-SwiftSale SDK also provide FAB for displaying and opening swiftchat sdk. just add SwiftUiSwiftChatFab() on your view
-``` swift
-import SwiftUI
-import swiftsales_ios_sdk
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            SwiftUiSwiftChatFab()
-            // your layout
-        }
-    }
-}
-
-```
 
 
 ## License
