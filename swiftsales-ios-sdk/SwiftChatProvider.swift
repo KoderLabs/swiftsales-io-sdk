@@ -16,6 +16,8 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
     private static var viewController: UIViewController? = nil
     private static var INSTANCE: SwiftChatProvider? = nil
     
+    private static var JAVSCRIPT_WEBKIT_CALLBACK = "callbackHandler"
+    
     private override init() {
         
     }
@@ -24,7 +26,7 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
         super.init()
         
         let contentController = WKUserContentController()
-        contentController.add(self, name: "callbackHandler")
+        contentController.add(self, name: SwiftChatProvider.JAVSCRIPT_WEBKIT_CALLBACK)
         
         let config = WKWebViewConfiguration()
         config.userContentController = contentController
@@ -37,7 +39,7 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
     
     // delegates
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.name == "callbackHandler"){
+        if (message.name == SwiftChatProvider.JAVSCRIPT_WEBKIT_CALLBACK){
             if(SwiftChatProvider.viewController?.navigationController == nil) {
                 SwiftChatProvider.viewController?.dismiss(animated: true, completion: nil)
             } else {
