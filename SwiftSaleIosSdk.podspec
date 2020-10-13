@@ -22,7 +22,7 @@ s.version      = "0.0.2"
 s.license = { :type => "MIT", :file => "LICENSE.txt" }
 
 # 4 - Replace with your name and e-mail address
-s.author = { "Swiftsales" => "koderlabs@gmail.com" }
+s.author = { "Swiftsales" => "admin@swiftsales.io" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
 s.homepage = "https://github.com/KoderLabs/swiftsales-io-sdk"
