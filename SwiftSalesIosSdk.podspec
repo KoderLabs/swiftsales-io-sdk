@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '11.0'
-s.name = "SwiftSaleIosSdk"
+s.name = "SwiftSalesIosSdk"
 s.summary = "iOS SDK for SwiftChat"
 s.requires_arc = true
 
