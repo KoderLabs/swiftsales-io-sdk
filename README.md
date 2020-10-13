@@ -34,8 +34,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## Usage
 
-### For UI-Kit
-
 You can manually open swiftsales chat from your view controller
 
 ```swift
