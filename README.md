@@ -7,8 +7,8 @@ Swift-Chat iOS SDK requires iOS 11.0 or above, and is compatibile with Swift 5.
 ### CocoaPods
 Swift-Chat iOS SDK is available through [CocoaPods](http://cocoapods.org):
 
-```ruby
-pod 'swiftsales_ios_sdk'
+```swift
+pod 'SwiftSalesIosSdk', '~> 1.0'
 ```
 
 ### App Delegate
