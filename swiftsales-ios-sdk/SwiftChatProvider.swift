@@ -33,7 +33,7 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
             
         webView = WKWebView(frame: frame, configuration: config)
             
-        webView?.load(NSURLRequest(url: NSURL(string: "https://dev-api.swiftchat.io/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
+        webView?.load(NSURLRequest(url: NSURL(string: "https://api.swiftchat.io/chat/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
         
     }
     
