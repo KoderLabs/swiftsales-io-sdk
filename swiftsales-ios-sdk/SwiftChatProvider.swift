@@ -28,13 +28,33 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
         let contentController = WKUserContentController()
         contentController.add(self, name: SwiftChatProvider.JAVSCRIPT_WEBKIT_CALLBACK)
         
+        ///  `WKWebView Configuration`
         let config = WKWebViewConfiguration()
         config.userContentController = contentController
-            
-        webView = WKWebView(frame: frame, configuration: config)
-            
-        webView?.load(NSURLRequest(url: NSURL(string: "https://api.swiftchat.io/chat/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
+        config.websiteDataStore = .nonPersistent()
+ 
+        // Set Process Pool
+        let processPool: WKProcessPool
+        if let pool: WKProcessPool = self.getData(key: "pool") {
+            processPool = pool
+        } else {
+            processPool = WKProcessPool()
+            self.setData(processPool, key: "pool")
+        }
+        config.processPool = processPool
         
+        // Set Cookie
+        if let cookies: [HTTPCookie] = self.getData(key: "cookies") {
+            for cookies in cookies {
+                if #available(iOS 11.0, *) {
+                    config.websiteDataStore.httpCookieStore.setCookie(cookies)
+                }
+            }
+        }
+        
+        ///  `Load WKWebView`
+        webView = WKWebView(frame: frame, configuration: config)
+        webView?.load(NSURLRequest(url: NSURL(string: "https://api.swiftchat.io/chat/widget/script?WebsiteId=\(SwiftSaleSdk.userId!)&Domain=\(SwiftSaleSdk.domainName!)&Integrate=true")! as URL) as URLRequest)
     }
     
     // delegates
@@ -58,5 +78,25 @@ class SwiftChatProvider : NSObject, WKScriptMessageHandler {
         }
         
         return SwiftChatProvider.INSTANCE!.webView!
+    }
+}
+
+
+//MARK: Extension (To save Cookie and Process Pool)
+extension SwiftChatProvider {
+    func setData(_ value: Any, key: String) {
+        let ud = UserDefaults.standard
+        let archivedPool = NSKeyedArchiver.archivedData(withRootObject: value)
+        ud.set(archivedPool, forKey: key)
+    }
+
+    func getData<T>(key: String) -> T? {
+        let ud = UserDefaults.standard
+        if let val = ud.value(forKey: key) as? Data,
+            let obj = NSKeyedUnarchiver.unarchiveObject(with: val) as? T {
+            return obj
+        }
+
+        return nil
     }
 }

@@ -38,5 +38,20 @@ public class SwiftSalesChatViewController: UIViewController {
         
         // Show the Navigation Bar
         self.navigationController?.setNavigationBarHidden(false, animated: false)
+        
+        // Save webView cookies
+        if #available(iOS 11.0, *) {
+            self.webView?.configuration.websiteDataStore.httpCookieStore.getAllCookies({ cookies in
+                self.setData(cookies, key: "cookies")
+            })
+        }
+    }
+}
+
+extension SwiftSalesChatViewController {
+    func setData(_ value: Any, key: String) {
+        let ud = UserDefaults.standard
+        let archivedPool = NSKeyedArchiver.archivedData(withRootObject: value)
+        ud.set(archivedPool, forKey: key)
     }
 }
